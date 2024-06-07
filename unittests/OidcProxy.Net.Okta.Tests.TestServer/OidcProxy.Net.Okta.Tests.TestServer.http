@@ -1,0 +1,9 @@
+@OidcProxy.Net.Okta.Tests.TestServer_HostAddress = http://localhost
+
+GET {{OidcProxy.Net.Okta.Tests.TestServer_HostAddress}}/openid-configuration/
+Accept: application/json
+
+
+GET {{OidcProxy.Net.Okta.Tests.TestServer_HostAddress}}/oauth/token/
+Accept: application/json
+###

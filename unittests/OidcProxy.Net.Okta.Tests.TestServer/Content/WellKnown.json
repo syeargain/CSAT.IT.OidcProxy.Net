@@ -1,0 +1,11 @@
+{
+  "issuer": "https://localhost/",
+  "authorization_endpoint": "https://localhost/authorize",
+  "token_endpoint": "https://localhost/oauth/token",
+  "device_authorization_endpoint": "https://localhost/oauth/device/code",
+  "userinfo_endpoint": "https://localhost/userinfo",
+  "mfa_challenge_endpoint": "https://localhost/mfa/challenge",
+  "jwks_uri": "https://localhost/.well-known/jwks",
+  "registration_endpoint": "https://localhost/oidc/register",
+  "revocation_endpoint": "https://localhost/oauth/revoke"
+}

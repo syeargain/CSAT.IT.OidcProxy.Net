@@ -1,0 +1,6 @@
+@Host.TestApps.Okta_HostAddress = http://localhost:5272
+
+GET {{Host.TestApps.Okta_HostAddress}}/custom/me/
+Accept: application/json
+
+###
